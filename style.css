@@ -29,20 +29,17 @@ body{
     margin-top: 10px;
 }
 
-.linha-horizontal{
-    width: 100px;
-    border: thin solid lightgray;
+.separador .linha-horizontal{
+    height: 1px;
+    width: 40%;
+    background-color: #dbdbdb;
 }
 
-.ou{
+.separador{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 70%;
-}
-
-p{
-    margin: 0px 10px;
 }
 
 .instagram-smartphone{
@@ -57,11 +54,9 @@ p{
 }
 
 .login{
-    display: flex;
-    justify-content: center;
     margin: 10px 0;
+    position: relative;
     font-size: 14px;
-    width: 100%;
     text-overflow: ellipsis;
 }
 
@@ -78,7 +73,6 @@ input{
 
 label {
     position: absolute;
-    margin-left: 35px;
     pointer-events: none;
     left: 10px;
     padding-bottom: 15px;
@@ -135,7 +129,7 @@ input:not(:placeholder-shown) {
 
 .login-button{
     text-align: center;
-    width: 78%;
+    width: 100%;
     padding: 0.5rem;
     border: 1px solid transparent;
     background-color: #3897f0;
